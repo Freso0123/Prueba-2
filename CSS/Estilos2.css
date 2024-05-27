@@ -1,0 +1,89 @@
+:root {
+    --blanco: #FFFFFF;
+    --Azul_ft: #009CB8;
+    --Naranga: #FFCDAF;
+    --Azul_cl: #C5F6FF;
+    --Amarillo: #FFF0B4;--Naranga_ft: #F66A14;
+    --gris_claro: #F5F5F5;
+  }
+  
+  html {
+    font-size: 1rem;
+    background: var(--gris_claro);
+  }
+  
+  body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Box 1 */
+  .box1 {
+    background-color: var(--Azul_ft);
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  
+  .titulo1 {
+    padding: 0.5rem;
+    color: var(--blanco);
+    border-radius: 1rem;
+  }
+  
+  .borrar {
+    background-color: var(--blanco);
+    padding: 0.1rem 0.7rem;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    border-radius: 0.6rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Box 2 */
+  .box2 {
+    padding: 1rem;
+  }
+  
+  .titulo2 {
+    margin-bottom: -1px;
+  }
+  
+  .text1,
+  .text2,
+  .text3 {
+    display: flex;
+    background-color: var(--Azul_cl);
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .text1 input,
+  .text2 input,
+  .text3 input {
+    margin-left: 0.5rem;
+    width: 5rem;
+  }
+  
+  .text1 p,
+  .text2 p,
+  .text3 p {
+    text-align: justify;
+    margin-left: 1.5rem;
+  }
+  
+  .mas {
+    background-color: var(--Naranga_ft);
+    width: 40px;
+    padding: 10px 12px;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
