@@ -112,6 +112,8 @@ padding: .5rem;
 
 .mas{
     position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 .mas button{
